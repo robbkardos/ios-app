@@ -1,0 +1,47 @@
+//  SilverPrefix.pch
+//  Created by Silver
+
+#ifndef SilverPrefix_pch
+#define SilverPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// Library
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Config.h"
+#import "ActivityIndicator.h"
+#import "JSON.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "DoAlertView.h"
+#import "UIViewController+KNSemiModal.h"
+
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <Quickblox/Quickblox.h>
+#import "SVProgressHUD.h"
+#import "TWMessageBarManager.h"
+#import "NSDate+DateTools.h"
+
+#import "SoundService.h"
+#import "ChatService.h"
+
+
+
+#import "AppController.h"
+#import "CommonUtils.h"
+
+
+#define appController [AppController sharedInstance]
+#define commonUtils [CommonUtils shared]
+
+// User Pages
+#import "UserBaseViewController.h"
+
+
+#endif
+
